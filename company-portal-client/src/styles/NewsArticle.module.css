@@ -1,0 +1,53 @@
+.card {
+  /* display: grid;
+  grid-template-columns: 800px;
+  grid-template-areas: "image" "text"; */
+  width: 24rem;
+  height: 90%;
+  border-radius: 18px;
+  background: white;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+
+  text-align: center;
+}
+
+.card_text {
+  grid-area: text;
+}
+
+.card_image {
+  grid-area: image;
+  width: 22rem;
+  height: 18rem;
+  border-radius: 15px;
+  margin-top: 2rem;
+  background-size: cover;
+}
+
+.card_text {
+  grid-area: text;
+  margin: 1rem;
+}
+.card_text_date {
+  color: rgb(63, 80, 160);
+  font-size: 13px;
+}
+.card_text_p {
+  color: grey;
+  font-size: 15px;
+  font-weight: 300;
+}
+.card_text_h2 {
+  margin-top: 0px;
+  font-size: 28px;
+}
+
+.card:hover {
+  transform: scale(1.15);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+.card {
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin: 30px;
+}

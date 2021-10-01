@@ -1,0 +1,13 @@
+.gennews {
+  width: 50%;
+  display: flex !important;
+}
+
+.weather {
+  width: 50rem;
+}
+
+.news_container {
+  display: flex !important;
+  flex-direction: row;
+}
